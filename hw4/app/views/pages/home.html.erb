@@ -1,0 +1,12 @@
+<%= form_tag stringify_path do %>
+  <%= label_tag :name, "Your Name here!" %>
+  <%= text_area_tag :name %>
+  <%= label_tag :age, "Age" %>
+  <%= text_area_tag :age %>
+<% end %>
+
+<%= form_tag do %>
+  <%= label_tag :name, "Cat name:" %>
+  <%= text_area_tag :name %>
+  <%= submit_tag "Submit!" %>
+<% end %>
